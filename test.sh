@@ -7,3 +7,7 @@ chmod +x tests.out
 gcc -I modules test_module_result.c modules.c modulesResult.c -o test_module_result.out
 chmod +x test_module_result.out
 ./test_module_result.out
+
+gcc -I modules test_gpa.c modules.c modulesResult.c gpa.c -o test_gpa.out
+chmod +x test_gpa.out 
+./test_gpa.out
